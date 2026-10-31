@@ -1,0 +1,58 @@
+intreg a <- -4
+intreg b <- -9
+intreg c <- -2
+intreg max
+max <- a
+daca b>max atunci
+max <- b
+sfdaca
+daca c>max atunci
+max <- c
+sfdaca
+daca max > (-3) atunci
+scrie "Alerta"
+sfdaca
+
+
+
+Tracing 
+A  |  B  |  C  |  MAX  | pas |
+-4    -9    -2    -4   | max<-a |
+-4    -9    -2    -9   |  b>max |
+-4    -9    -2    -9   |  c>max | 
+
+
+
+
+
+
+intreg a <- 7
+intreg b <- 5
+intreg c <- 6
+intreg max
+max <- a
+daca b>max atunci
+max <- b
+sfdaca
+daca c>max atunci
+max <- c
+sfdaca
+daca max > (7) atunci
+scrie "Alerta"
+sfdaca
+
+
+
+Tracing 
+a  |  b  |  c  |  MAX  | pas |
+7    5    6       7   | max<-a |
+7    5    6       7   |  b>max |
+7    5    6       7   |  c>max | 
+
+
+
+
+La primul cod apare alarma pentru ca trece -9 trece de -3 si se aplica alarma,codul foloseste algoritmul de fiecare step comparare
+la al doilea cod alarma nu se activeaza pentru ca pragul este 7 si nu este si mai mare sau egal doar mai mare si 7 este egal cu 7 nu mai mare si nu se activeaza alarma
+
+
